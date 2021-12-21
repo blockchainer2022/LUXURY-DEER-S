@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+body {
+  min-height: 100vh;
+  background-image: url(./assets/backgound.svg),
+    linear-gradient(180deg, #f3f7fe 0%, #ebeffa 100%);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Russo One", sans-serif;
+}
