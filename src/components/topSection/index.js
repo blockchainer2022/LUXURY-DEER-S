@@ -58,7 +58,7 @@ const TopSection = ({
   return (
     <div className="topsection-main-wrapper">
       <div className="topsection-inner-wrapper">
-        <div className="top-logo-wrapper logo">LUXURY DEER'S</div>
+        <div className="top-logo-wrapper logo">LUXURY DEER</div>
         <div className="topsection-bootom-box-wrapper">
           <div className="topsection-bootom-inner-box-wrapper">
             <div className="topb-left-wrapper">
@@ -87,7 +87,7 @@ const TopSection = ({
               </div>
 
               <p className="slider-below-text">
-                Buy {value} Deers{" "}
+                Buy {value} Deer{" "}
                 <span className="big-font">
                   {(value * price).toFixed(4)} Ether
                 </span>
@@ -134,7 +134,7 @@ const TopSection = ({
               </div>
 
               <p>
-                Total Deers Sold{" "}
+                Total Deer Sold{" "}
                 <span className="linebreak">
                   {totalSupply}/{maxSupply}
                 </span>
