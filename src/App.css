@@ -8,3 +8,9 @@ body {
   background-repeat: no-repeat;
   font-family: "Russo One", sans-serif;
 }
+
+@media (max-width: 600px) {
+  body {
+    background-position: left center;
+  }
+}
